@@ -50,4 +50,8 @@ main {
   background-color: $color-accent;
   width: 85vw;
   height: 100vh;
+
+  &__row {
+    padding: 2rem;
+  }
 }

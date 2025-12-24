@@ -25,6 +25,10 @@ body {
   text-decoration: none;
 }
 
+.flex--horizontal {
+  display: flex;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -73,6 +77,9 @@ main {
   background-color: #71567a;
   width: 85vw;
   height: 100vh;
+}
+.section-progress__row {
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
