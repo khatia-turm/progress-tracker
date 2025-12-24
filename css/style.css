@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background-color: #3a345b;
+}
+
+.btn {
+  background-color: none;
+  border: none;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.header__brand {
+  color: #f3c8dd;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-size: 3rem;
+  position: relative;
+  display: inline-block;
+}
+.header__brand::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 4px;
+  background-color: #71567a;
+  border-radius: 2px;
+}
+.header__switch--btn {
+  background-color: #f3c8dd;
+  color: #481635;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border-radius: 80px;
+  transition: all 0.3s;
+}
+.header__switch--btn:hover {
+  background-color: #71567a;
+  color: #f3c8dd;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-progress {
+  background-color: #71567a;
+  width: 85vw;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */

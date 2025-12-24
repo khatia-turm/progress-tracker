@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "sass": "sass --watch sass/main.scss css/style.css",
+    "dev": "live-server"
+  },
+  "devDependencies": {
+    "sass": "^1.93.2"
+  }
+}

@@ -1,0 +1,53 @@
+@use "./general" as *;
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+
+  &__brand {
+    color: $color-bg-secondary;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-size: 3rem;
+
+    position: relative;
+    display: inline-block;
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 100%;
+      height: 4px;
+      background-color: $color-accent;
+      border-radius: 2px;
+    }
+  }
+
+  &__switch--btn {
+    background-color: $color-bg-secondary;
+    color: $color-text-primary;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: $radius-pill;
+    transition: all 0.3s;
+    &:hover {
+      background-color: $color-accent;
+      color: $color-bg-secondary;
+    }
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-progress {
+  background-color: $color-accent;
+  width: 85vw;
+  height: 100vh;
+}
