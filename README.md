@@ -13,19 +13,16 @@ event listeners
 array of goal objects
 DOM updates
 
-##### Day 1
+## features to add
 
-Basic HTML layout
-Add goal
-Mark complete
-Store in array
-Save/load from localStorage
-If it works but looks ugly? GOOD.
+- Delete goal
+- edit goal name
+- completion percentage
+- streak
+- switch to 30 days
+- graph (maybe)
 
-##### Day 2
+### styles
 
-Add graph
-Add progress text
-Add reset/new day logic
-Clean variable names
-Add comments
+- at least make it look nice
+- responsiveness? idk

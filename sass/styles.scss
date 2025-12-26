@@ -1,4 +1,7 @@
-@use "./general" as *;
+@use "./abstracts/variables" as *;
+@use "./base/base";
+@use "./abstracts/mixins";
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -53,5 +56,16 @@ main {
 
   &__row {
     padding: 2rem;
+    display: grid;
+    grid-template-columns: 4fr repeat(7, 1fr);
+  }
+}
+
+.checkbox {
+  display: none;
+
+  &__img {
+    width: 2rem;
+    height: 2rem;
   }
 }

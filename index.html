@@ -24,22 +24,27 @@
     </header>
     <main>
       <section class="section-progress">
-        <div class="section-progress__row">
+        <div class="section-progress__row section-progress__row--header">
           <div class="flex--horizontal">
             <input
               type="text"
               class="section-progress__row--input"
+              Wed
               placeholder="New Goal"
             />
-            <button class="input--button" type="button">Add</button>
+            <button class="input--button" type="submit">Add</button>
           </div>
-          <label class="custom-checkbox">
-            <input type="checkbox" />
-            <span class="checkmark"></span>
-          </label>
+          <p class="section-progress__row--weekday">Mon</p>
+          <p class="section-progress__row--weekday">Tur</p>
+          <p class="section-progress__row--weekday">Wed</p>
+          <p class="section-progress__row--weekday">Thur</p>
+          <p class="section-progress__row--weekday">Fri</p>
+          <p class="section-progress__row--weekday">Sat</p>
+          <p class="section-progress__row--weekday">Sun</p>
         </div>
+        <div class="section-progress__list"></div>
       </section>
     </main>
-    <script href="script.js" />
+    <script src="script.js"></script>
   </body>
 </html>

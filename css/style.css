@@ -80,6 +80,16 @@ main {
 }
 .section-progress__row {
   padding: 2rem;
+  display: grid;
+  grid-template-columns: 4fr repeat(7, 1fr);
+}
+
+.checkbox {
+  display: none;
+}
+.checkbox__img {
+  width: 2rem;
+  height: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

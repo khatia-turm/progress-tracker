@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "sass": "sass --watch sass/main.scss css/style.css",
+    "sass": "sass --watch sass/styles.scss css/style.css",
     "dev": "live-server"
   },
   "devDependencies": {
